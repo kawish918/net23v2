@@ -1,0 +1,10 @@
+# Phase 3 - Real-Time IDS Additional Dependencies
+# Install with: pip install -r requirements_phase3.txt
+
+scapy>=2.5.0          # Packet capture and manipulation
+pyshark>=0.6          # Alternative packet analyzer (Wireshark wrapper)
+netifaces>=0.11.0     # Network interface information
+
+# Note: Windows users must install Npcap separately
+# Download from: https://npcap.com/#download
+# During installation, select "WinPcap API-compatible Mode"

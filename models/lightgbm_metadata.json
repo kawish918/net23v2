@@ -1,0 +1,51 @@
+{
+  "model_name": "LightGBM",
+  "version": "v1",
+  "timestamp": "20251019_115647",
+  "performance": {
+    "train": {
+      "accuracy": 0.999998679611971,
+      "precision": 0.9999986796154579,
+      "recall": 0.999998679611971,
+      "f1_score": 0.999998679611971,
+      "roc_auc": 0.9999999768372974,
+      "inference_time_per_sample": 8.557192660566244e-07
+    },
+    "val": {
+      "accuracy": 0.9999953786449494,
+      "precision": 0.9999953786876629,
+      "recall": 0.9999953786449494,
+      "f1_score": 0.9999953786449491,
+      "roc_auc": 0.999998296107348,
+      "inference_time_per_sample": 8.141325108776047e-07
+    },
+    "test": {
+      "accuracy": 0.9999924902980427,
+      "precision": 0.9999924904108324,
+      "recall": 0.9999924902980427,
+      "f1_score": 0.9999924902980424,
+      "roc_auc": 0.9999998964356109,
+      "inference_time_per_sample": 1.0364762699752629e-06
+    },
+    "cross_validation": {
+      "scores": [
+        0.9999956674790144,
+        0.999994945392183,
+        0.9999956674758859,
+        0.9999949453885334,
+        0.999994223301181
+      ],
+      "mean": 0.9999950898073594,
+      "std": 5.403611690373465e-07
+    }
+  },
+  "training_time": 46.595629930496216,
+  "inference_time_per_sample": 1.0364762699752629e-06,
+  "feature_count": 79,
+  "class_count": 2,
+  "training_samples": 6058825,
+  "attack_mapping": {
+    "Benign": 0,
+    "Malicious": 1
+  }
+}

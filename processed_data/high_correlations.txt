@@ -1,0 +1,37 @@
+Flow Duration,Fwd IAT Total,0.9804
+Total Length of Fwd Packet,Fwd Act Data Pkts,0.9712
+Fwd Packet Length Max,Fwd Packet Length Min,0.9628
+Fwd Packet Length Max,Fwd Packet Length Mean,0.9840
+Fwd Packet Length Max,Packet Length Max,0.9971
+Fwd Packet Length Max,Packet Length Mean,0.9610
+Fwd Packet Length Max,Average Packet Size,0.9553
+Fwd Packet Length Max,Fwd Segment Size Avg,0.9840
+Fwd Packet Length Min,Fwd Packet Length Mean,0.9945
+Fwd Packet Length Min,Packet Length Max,0.9560
+Fwd Packet Length Min,Packet Length Mean,0.9678
+Fwd Packet Length Min,Average Packet Size,0.9681
+Fwd Packet Length Min,Fwd Segment Size Avg,0.9945
+Fwd Packet Length Mean,Packet Length Max,0.9781
+Fwd Packet Length Mean,Packet Length Mean,0.9745
+Fwd Packet Length Mean,Average Packet Size,0.9722
+Fwd Packet Length Mean,Fwd Segment Size Avg,1.0000
+Bwd Packet Length Mean,Bwd Segment Size Avg,1.0000
+Flow Packets/s,Fwd Packets/s,0.9999
+Flow IAT Max,Fwd IAT Max,0.9748
+Flow IAT Max,Idle Mean,0.9741
+Flow IAT Max,Idle Max,0.9943
+Fwd IAT Mean,Fwd IAT Min,0.9586
+Fwd IAT Max,Idle Mean,0.9506
+Fwd IAT Max,Idle Max,0.9693
+Bwd Header Length,ACK Flag Count,0.9865
+Packet Length Max,Packet Length Mean,0.9569
+Packet Length Max,Average Packet Size,0.9507
+Packet Length Max,Fwd Segment Size Avg,0.9781
+Packet Length Mean,Average Packet Size,0.9939
+Packet Length Mean,Fwd Segment Size Avg,0.9745
+Average Packet Size,Fwd Segment Size Avg,0.9722
+Bwd Bytes/Bulk Avg,Bwd Packet/Bulk Avg,0.9939
+Active Mean,Active Max,0.9847
+Active Mean,Active Min,0.9871
+Idle Mean,Idle Max,0.9805
+Idle Mean,Idle Min,0.9802

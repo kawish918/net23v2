@@ -1,0 +1,22 @@
+{
+  "Dst Port": 0.12171611961656013,
+  "Flow IAT Min": 0.11341105189964523,
+  "FWD Init Win Bytes": 0.07508898298818932,
+  "RST Flag Count": 0.06144858097478303,
+  "Total Fwd Packet": 0.04941089387437212,
+  "Fwd Seg Size Min": 0.043824328037340585,
+  "Fwd IAT Std": 0.04032693174817669,
+  "Flow IAT Std": 0.029130484242895643,
+  "Bwd Header Length": 0.028348293681682,
+  "Fwd Header Length": 0.02821674226498713,
+  "Flow Duration": 0.020758176800413686,
+  "Flow Bytes/s": 0.019646440073821568,
+  "Average Packet Size": 0.018974872423603246,
+  "Src Port": 0.0186330797787157,
+  "Bwd Bytes/Bulk Avg": 0.017610731010374067,
+  "Bwd Packet/Bulk Avg": 0.01674121305868423,
+  "Packet Length Variance": 0.0165204780019598,
+  "Fwd Packets/s": 0.01513902266128901,
+  "Fwd Packet Length Min": 0.01473747259079747,
+  "Flow IAT Mean": 0.01467169451340415
+}

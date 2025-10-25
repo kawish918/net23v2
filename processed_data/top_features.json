@@ -1,0 +1,38 @@
+{
+  "top_variance": [
+    "Subflow Bwd Bytes",
+    "Total Length of Fwd Packet",
+    "Fwd Act Data Pkts",
+    "Bwd Bytes/Bulk Avg",
+    "PSH Flag Count",
+    "Bwd Packet/Bulk Avg",
+    "Bwd Header Length",
+    "Total Length of Bwd Packet",
+    "ACK Flag Count",
+    "Fwd Header Length"
+  ],
+  "top_separability": [
+    "Bwd Packet/Bulk Avg",
+    "Fwd Header Length",
+    "Bwd Bytes/Bulk Avg",
+    "Fwd Act Data Pkts",
+    "Total Length of Fwd Packet",
+    "Bwd Header Length",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "Bwd IAT Total",
+    "Total Length of Bwd Packet"
+  ],
+  "top_combined": [
+    "Bwd Packet/Bulk Avg",
+    "Bwd Bytes/Bulk Avg",
+    "Fwd Act Data Pkts",
+    "Total Length of Fwd Packet",
+    "Fwd Header Length",
+    "PSH Flag Count",
+    "Bwd Header Length",
+    "ACK Flag Count",
+    "Subflow Bwd Bytes",
+    "Total Length of Bwd Packet"
+  ]
+}

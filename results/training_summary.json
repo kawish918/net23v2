@@ -1,0 +1,48 @@
+{
+  "training_date": "2025-10-19 11:56:47",
+  "dataset_info": {
+    "training_samples": 6058825,
+    "validation_samples": 865547,
+    "test_samples": 1731094,
+    "total_features": 79,
+    "attack_classes": 2,
+    "class_names": [
+      "Benign",
+      "Malicious"
+    ]
+  },
+  "models_trained": [
+    "RandomForest",
+    "LightGBM",
+    "GradientBoosting"
+  ],
+  "performance_metrics": {
+    "RandomForest": {
+      "test_accuracy": 0.9999797815716536,
+      "test_f1_score": 0.9999797815716454,
+      "test_precision": 0.9999797823891902,
+      "test_recall": 0.9999797815716536,
+      "inference_time_ms": 0.0017022974768526582
+    },
+    "LightGBM": {
+      "test_accuracy": 0.9999924902980427,
+      "test_f1_score": 0.9999924902980424,
+      "test_precision": 0.9999924904108324,
+      "test_recall": 0.9999924902980427,
+      "inference_time_ms": 0.0010364762699752628
+    },
+    "GradientBoosting": {
+      "test_accuracy": 0.9999780485635096,
+      "test_f1_score": 0.9999780485635001,
+      "test_precision": 0.9999780494284269,
+      "test_recall": 0.9999780485635096,
+      "inference_time_ms": 0.004237659571274921
+    }
+  },
+  "training_times": {
+    "RandomForest": 399.6923177242279,
+    "LightGBM": 46.595629930496216,
+    "GradientBoosting": 1607.3831861019135
+  },
+  "best_model": "LightGBM"
+}
