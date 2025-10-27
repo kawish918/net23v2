@@ -162,14 +162,20 @@ class NetworkIDS:
         protocol_num = protocol_map.get(protocol, 0)
         
         # Build feature vector (79 features)
+        # NOTE: Removed src_port and dst_port because they cause scaling issues
+        # Port numbers (443, 52341) become massive outliers after scaling
         features = [
             duration, len(packets), total_bytes, avg_packet_len, std_packet_len,
             max_packet_len, min_packet_len, packet_rate, byte_rate,
             syn_ratio, ack_ratio, psh_ratio, rst_ratio, fin_ratio, urg_ratio,
-            avg_iat, std_iat, max_iat, min_iat, protocol_num, src_port, dst_port
+            avg_iat, std_iat, max_iat, min_iat, protocol_num,
+            # Port indicators (normalized to 0-1 range instead of raw ports)
+            1 if dst_port in [80, 443, 8080, 8443] else 0,  # Common web ports
+            1 if dst_port in [22, 23, 3389] else 0,          # Remote access ports
         ]
         
         # Pad to 79 features
+        # Use zeros for missing features (cleaner than random noise)
         while len(features) < 79:
             features.append(0)
         
@@ -181,7 +187,7 @@ class NetworkIDS:
         if features is None:
             return None
         
-        # Scale and predict
+        # Scale features using the same scaler from training
         features_scaled = self.scaler.transform(features)
         prediction = self.model.predict(features_scaled)[0]
         probabilities = self.model.predict_proba(features_scaled)[0]
